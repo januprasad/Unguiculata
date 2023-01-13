@@ -1,0 +1,166 @@
+{
+  "name": "card",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "7E8ejoKPZevfoktUdmptUO",
+    "node": "3:22",
+    "version": "2863720216",
+    "component-id": "c353861c6d66a33b33aec27c4a39339c2f32c2d8"
+  },
+  "default": "Card",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Title"
+      },
+      {
+        "type": "text",
+        "id": "Status"
+      },
+      {
+        "type": "text",
+        "id": "Date"
+      }
+    ],
+    "modes": {
+      "Card": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": "16.0",
+            "border-radius": "8.0",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Title",
+              "Status",
+              "Date"
+            ],
+            "item-spacing": "16.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Title",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "240.0",
+              "saturation": "0.07407407407407407",
+              "value": "0.10588235294117647"
+            },
+            "text-content": "$name",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.4285714721679688",
+            "typeface": "Gotham Rounded"
+          },
+          {
+            "id": "Status",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "350.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "80.85106382978724",
+              "saturation": "0.7014925373134329",
+              "value": "0.788235294117647"
+            },
+            "text-content": "$status",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.4285714721679688",
+            "typeface": "Gotham Rounded"
+          },
+          {
+            "id": "Date",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "246.00000000000009",
+              "saturation": "0.09345794392523371",
+              "value": "0.4196078431372549"
+            },
+            "text-content": "$date",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.4285714721679688",
+            "typeface": "Gotham Rounded"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "name": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "status": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "date": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Card",
+      "size": {
+        "width": 367.0,
+        "height": 118.0
+      },
+      "parameters": {
+        "name": "Miranda A",
+        "status": "Attended",
+        "date": "26 Jul 2022"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

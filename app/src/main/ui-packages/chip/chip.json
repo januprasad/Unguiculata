@@ -1,0 +1,96 @@
+{
+  "name": "chip",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "7E8ejoKPZevfoktUdmptUO",
+    "node": "1:11",
+    "version": "2863720216",
+    "component-id": "5fb8f2dc4ce9b51f680792c4322c0f773e02842d"
+  },
+  "default": "Chip",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Title"
+      }
+    ],
+    "modes": {
+      "Chip": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "16.0",
+              "top": "10.0",
+              "right": "16.0",
+              "bottom": "10.0"
+            },
+            "border-radius": "80.0",
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "187.57575757575756",
+              "saturation": "1.0",
+              "value": "0.7764705882352941"
+            },
+            "arrangement": "row",
+            "children": [
+              "Title"
+            ],
+            "item-spacing": "8.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "187.57575757575756",
+              "saturation": "1.0",
+              "value": "0.7764705882352941"
+            },
+            "clip-content": "false"
+          },
+          {
+            "id": "Title",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$label",
+            "overflow": "visible",
+            "text-size": "15.0",
+            "line-height": "1.3333332824707032",
+            "typeface": "ABeeZee"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "label": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Chip",
+      "size": {
+        "width": 117.0,
+        "height": 32.0
+      },
+      "parameters": {
+        "label": "Japanese"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
